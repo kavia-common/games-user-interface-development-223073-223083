@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Ocean Strategy",
+    "rating": 4.6,
+    "players": 1,
+    "category": "Strategy",
+    "image": "",
+    "description": "Command fleets and conquer the seas in this strategic experience."
+  },
+  {
+    "id": 2,
+    "title": "Amber Rush",
+    "rating": 4.2,
+    "players": 2,
+    "category": "Arcade",
+    "image": "",
+    "description": "Fast-paced arcade action with glowing amber trails."
+  },
+  {
+    "id": 3,
+    "title": "Coral Puzzle",
+    "rating": 4.8,
+    "players": 1,
+    "category": "Puzzle",
+    "image": "",
+    "description": "Solve intricate coral patterns in a relaxing puzzle world."
+  },
+  {
+    "id": 4,
+    "title": "Deep Dive Adventure",
+    "rating": 4.1,
+    "players": 1,
+    "category": "Adventure",
+    "image": "",
+    "description": "Explore the depths and discover hidden mysteries."
+  },
+  {
+    "id": 5,
+    "title": "Wave Runner",
+    "rating": 3.9,
+    "players": 4,
+    "category": "Arcade",
+    "image": "",
+    "description": "Race across waves and outpace your rivals."
+  },
+  {
+    "id": 6,
+    "title": "Harbor Master",
+    "rating": 4.4,
+    "players": 1,
+    "category": "Strategy",
+    "image": "",
+    "description": "Manage a bustling port and optimize logistics."
+  }
+]

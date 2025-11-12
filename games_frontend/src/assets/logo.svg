@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Placeholder logo. Replace with Figma-exported asset by dropping it into src/assets/ and updating imports if needed. -->
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Games Logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2563EB" stop-opacity="1"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#g)"/>
+  <g fill="#fff">
+    <circle cx="48" cy="64" r="10"/>
+    <circle cx="80" cy="64" r="10"/>
+  </g>
+</svg>

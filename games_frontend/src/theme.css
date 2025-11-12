@@ -1,0 +1,55 @@
+:root {
+  /* Ocean Professional Theme Tokens (Light) */
+  --color-primary: #2563EB; /* blue-600 */
+  --color-secondary: #F59E0B; /* amber-500 (used also as success accent) */
+  --color-success: #F59E0B;
+  --color-error: #EF4444; /* red-500 */
+  --color-background: #f9fafb; /* gray-50 */
+  --color-surface: #ffffff;
+  --color-text: #111827; /* gray-900 */
+  --color-text-muted: #6B7280; /* gray-500 */
+  --color-border: #E5E7EB; /* gray-200 */
+  --color-hover: #F3F4F6; /* gray-100 */
+  --gradient-subtle: linear-gradient(180deg, rgba(59,130,246,0.06), rgba(249,250,251,1));
+
+  /* Radii */
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+
+  /* Shadows */
+  --shadow-xs: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-sm: 0 2px 6px rgba(0,0,0,0.08);
+  --shadow-md: 0 6px 12px rgba(0,0,0,0.08);
+  --shadow-lg: 0 10px 20px rgba(0,0,0,0.12);
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* Typography */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 24px;
+  --font-size-2xl: 28px;
+}
+
+/* Dark theme overrides */
+:root[data-theme='dark'] {
+  --color-background: #0f172a; /* slate-900 */
+  --color-surface: #111827; /* gray-900 */
+  --color-text: #F9FAFB; /* gray-50 */
+  --color-text-muted: #9CA3AF; /* gray-400 */
+  --color-border: #1F2937; /* gray-800 */
+  --color-hover: #1F2937; /* gray-800 */
+  --gradient-subtle: linear-gradient(180deg, rgba(59,130,246,0.12), rgba(17,24,39,1));
+  /* Keep primary/secondary/error to maintain contrast */
+}
